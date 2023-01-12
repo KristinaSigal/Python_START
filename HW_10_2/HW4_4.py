@@ -55,17 +55,3 @@ def sumPolinom(a, b):  # сложение полиномов
             degree = f""
         result = result + f"{plus}{sum[i]}{degree}"
     return result+"=0"
-
-# a='9x^5+7x^4+7x^3+9x^2+6x+17=0'
-# b='3x^2+2x+1=0'
-# f = open('polinomA.txt', 'r')
-# a = f.readline()
-# f.close()
-# f = open('polinomB.txt', 'r')
-# b = f.readline()
-# f.close()
-# f = open('polinom_sum.txt', 'w')
-# sumP = sumPolinom(parsPolinom(a),parsPolinom(b))
-# f.write(sumP)
-# f.close()
-# print(sumP)
